@@ -9,8 +9,6 @@ app.use("/user/:id", (req, res, next) => {
     res.send(req.params.id);
 });
 
-app.use()
-
 const PORT = process.env.PORT || 8080;
 const host = "localhost";
 app.listen(PORT, host, () =>
